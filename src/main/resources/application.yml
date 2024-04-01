@@ -1,0 +1,10 @@
+server:
+  port: 8080  # HTTP 포트
+
+spring:
+  profiles:
+    default: dev
+
+  jwt:
+    secretKey: ${키값 256비트 이상}
+
